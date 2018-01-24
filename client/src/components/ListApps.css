@@ -1,0 +1,51 @@
+.listAppWrp {
+  width: 100%;
+  float: left;
+  padding: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .listAppWrp .ui.cards>.card {
+    width: calc(33.33% - 1.5em);
+  }
+}
+@media screen and (max-width: 768px) {
+  .listAppWrp .ui.cards>.card {
+    width: calc(50% - 1.5em);
+  }
+}
+@media screen and (max-width: 475px) {
+  .listAppWrp .ui.cards>.card {
+    width: calc(100% - 1.5em);
+  }
+}
+
+.button-addApp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  right: 30px;
+  bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+
+.ReactModal__Content{
+  background: none !important;
+  border: 0 !important;
+}
+
+.listModal-inner {
+  width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+  .listModal-inner .ui.stacked.segment{
+    width: 600px;
+  }
+}
+
+
+.ui.card>.extra, .ui.cards>.card>.extra a {
+  margin-right: 10px;
+}

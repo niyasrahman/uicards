@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Common Styles */
+.wrapper{
+  width: 100%;
+  float: left;
+}
+.clear{
+  display: block;
+  clear: both;
+}

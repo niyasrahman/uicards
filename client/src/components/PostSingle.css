@@ -1,0 +1,14 @@
+.ps-row{
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+.ps-row label{
+  display: block;
+}
+.ps-field{
+  width: 100%;
+}
+.ql-editor{
+  min-height: 100px !important;
+}

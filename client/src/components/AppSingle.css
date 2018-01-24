@@ -1,0 +1,139 @@
+
+.dash-right{
+  width: calc(100% - 15rem);
+  height: 1000px;
+  background: #f7f7f7;
+  float: right;
+  padding: 15px 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .dash-left{ width:22%; }
+}
+@media screen and (max-width: 768px) {
+  .dash-right{ width:100%; }
+}
+
+.dash-left-in{
+  width: 100%;
+  float: left;
+}
+
+.as-icon-wrp{
+  width: 100%;
+  background: #aaa;
+  height: 80px;
+  text-align: center;
+}
+.as-icon-wrp img{
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+
+ul.dash-menu{
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  float: left;
+}
+ul.dash-menu li{
+  width: 100%;
+  padding: 10px 15px;
+  color: #dad7d7;
+  font-size: 15px;
+}
+
+.dash-right-in{
+  width: 96%;
+  height: 100%;
+  float: none;
+  margin: auto;
+  background: #fff;
+  padding: 15px;
+}
+
+ul.as-appname{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  float: left;
+}
+ul.as-appname li{
+  display: inline-block;
+  font-size: 14px;
+  color: #7d7d7d;
+}
+ul.as-appname li::before {
+  content: "/";
+  padding-left: 5px;
+  padding-right: 5px;
+}
+ul.as-appname li:first-child::before{
+  content: "";
+  padding: 0;
+}
+
+.button-newPost{
+  float: right;
+  border: none;
+  background: green;
+  color: #fff;
+  transition: all 0.3s ease;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+.button-newPost:hover{
+  background: #0cc10c;
+}
+
+.asTabs-wrp{
+  width: 100%;
+  float: left;
+  margin-top: 35px;
+}
+
+.asTabs-wrp .react-tabs__tab-list{
+  list-style: none;
+  padding-left: 0;
+}
+.asTabs-wrp .react-tabs__tab-list .react-tabs__tab{
+  display: inline-block;
+  color: blue;
+}
+.asTabs-wrp .react-tabs__tab-list .react-tabs__tab--selected{
+  color: #000;
+}
+.asTabs-wrp .react-tabs__tab-list .react-tabs__tab::before {
+  content: "|";
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.asTabs-wrp .react-tabs__tab-list .react-tabs__tab:first-child::before {
+  content: " ";
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.asPost-wrp{
+  width: 100%;
+  float: left;
+  padding: 15px 0;
+}
+
+.AppSingle_Pagination {
+  margin-top: 15px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .asPost-left {
+    width: 30%;
+  }
+  .asPost-right {
+    width: 70%;
+  }
+}
