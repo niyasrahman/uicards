@@ -1,0 +1,30 @@
+{
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
+  "description": "Example on using create-react-app with a Node Express Backend",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/saheeranas/nodium-cms.git"
+  },
+  "keywords": [
+    "\\"
+  ],
+  "bugs": {
+    "url": "https://github.com/saheeranas/nodium-cms/issues"
+  },
+  "homepage": "https://github.com/saheeranas/nodium-cms#readme"
+}
